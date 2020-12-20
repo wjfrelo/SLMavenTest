@@ -14,7 +14,7 @@ public class JenkinsJunitDemo
     private WebDriver driver;
 
     @Before
-    public void setUp() 
+    public void setUp()
     {
         driver = new ChromeDriver();
         driver.get(Base_Url);
